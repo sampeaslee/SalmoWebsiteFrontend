@@ -1,0 +1,29 @@
+table {
+    background-color: seagreen;
+    border-collapse: separate;
+    border: darksalmon 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 5px 5px gray;
+}
+tr{
+    width: 10000px;
+
+}
+th {
+    border-collapse: separate;
+    border: solid black 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    font-size: 17px;
+}
+td {
+    border-collapse: separate;
+    border: solid black 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    width: 100px;
+    height: 100px;
+}
+
+

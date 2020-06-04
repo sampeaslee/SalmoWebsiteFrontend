@@ -1,38 +1,131 @@
 .App {
-  text-align: center;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.Salmon-logo {
+    display: flex;
+
+    align-items: flex-start;
+    background-color: steelblue;
+    height: 100px;
+    flex-direction: row;
+    font-family: 'Architects Daughter';
+    font-size: 35px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Main-div {
+    display: flex;
+   
+    height: 750px;
+    background-color: steelblue;
+    padding: 20px;
+}
+.Date-picker {
+    font-family: 'Architects Daughter';
+    color: black;
+    border-color:black;
+    background-color:lightslategray;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Add-event {
+    font-family: 'Architects Daughter';
+    color: black;
+    background-color: cadetblue;
+    border-radius: 6px;
+    width: 500px;
+    -moz-border-radius: 6px;
+
+}
+.Alert {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Alert-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+.Button-exit {
+    background-color: indianred;
+    border-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    align-items: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button-add {
+    background-color: mediumpurple;
+    border-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.Button-layout {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.TextInput {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize:vertical;
+}
+
+.Bottom-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: steelblue;
+    font-family: 'Architects Daughter';
+    font-size: 35px
+}
+
+
+@font-face {
+    font-family: 'Architects Daughter';
+    src: local('Architects Daughter'), url(./fonts/ArchitectsDaughter-Regular.ttf) format('truetype');
+}
+
+.R {
+    display: flex;
+    flex-direction: row;
 }
